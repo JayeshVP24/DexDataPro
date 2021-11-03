@@ -1,9 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Dex Data Processing
 
-# Nextjs Typescript TailwindCSS Framer-Motion Starter Template
-
-## Ready to go Nextjs template with typescript, tailwindCSS and framer-motion setup.
-
-## Page Transition has been setup, you can use framer motion initial, animate and exit states to make page transitions. 
-
-## Default eslint linter is also added
+## DEX Data is a leading company offering Information Technology services in terms of Data Processing, Data Entry, OCR, Document Digitalization etc. We handle various projects in the Mumbai area. DEX Data is a leader in providing value-added IT services to our customers by creating a successful partnership with them throughout the entire process and have a knack for consistently achieving and fulfilling the market demands. Our pledge is to establish lasting relationships with our customers by exceeding their expectations, gaining their trust through exceptional performance by every member of our team on the assigned projects and maximizing customer satisfaction to the utmost limit.

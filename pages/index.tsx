@@ -6,7 +6,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Contact from "../components/Contact";
 import Scanners from "../components/Scanners";
-import Link from "next/link"
+import Link from "next/link";
 
 const Home: NextPage = () => {
     return (
@@ -54,10 +54,10 @@ const Home: NextPage = () => {
 export default Home;
 
 export async function getStaticProps() {
-    // ↓add 
-    console.log(`Building `)
-    return {props: {}}
-  }
+    // ↓add
+    console.log(`Building `);
+    return { props: {} };
+}
 
 const Hero: React.FC = () => {
     return (
@@ -70,15 +70,16 @@ const Hero: React.FC = () => {
                     Digitize your Data, with us !
                 </h1>
                 <h2 className="text-xl lg:pr-32  ">
-                    Your search for quality Data Processing Company now ends. Look no further for your data processing needs!
+                    Your search for quality Data Processing Company now ends.
+                    Look no further for your data processing needs!
                 </h2>
                 <div className="flex space-x-4 md:text-lg">
-                    <Link href="/services"> 
-                    <a>
-                        <button className="bg-primary font-medium text-white px-8 py-3 rounded-xl hover:ring ring-primary ring-opacity-50 transition-all active:scale-95">
-                            Check Services
-                        </button>
-                    </a>
+                    <Link href="/services">
+                        <a>
+                            <button className="bg-primary font-medium text-white px-8 py-3 rounded-xl hover:ring ring-primary ring-opacity-50 transition-all active:scale-95">
+                                Check Services
+                            </button>
+                        </a>
                     </Link>
                     <a href="#why">
                         <button className="bg-secondary font-medium px-8 py-3 rounded-xl hover:ring ring-secondary ring-opacity-50 transition-all active:scale-95 ">
@@ -138,7 +139,7 @@ const Stats: React.FC = () => {
                     {yearsOfExperiance} +
                 </p>
                 <p className="font-semibold text-lg w-min mx-auto text-white py-8 xl:py-10 xl:text-2xl">
-                    Years of Experiance
+                    Years of Experience
                 </p>
             </div>
         </section>
@@ -221,7 +222,7 @@ const Services: React.FC = () => {
                         Finance Scanning
                     </span>
                     <ul className="list-disc pl-16 font-medium text-white text-sm pt-4 pb-8 ">
-                        <li>Clients Files</li>
+                        <li>Client Files</li>
                         <li>Purchase Invoice</li>
                         <li>Sales Invoice</li>
                         <li>Account Payable</li>
@@ -498,13 +499,12 @@ const Services: React.FC = () => {
 // };
 
 const Why: React.FC = () => {
-  
     return (
         <section id="why" className="">
             <h3 className="text-3xl xl:text-4xl text-center font-medium">
                 Why us
             </h3>
-            <div className="mt-12 space-y-8 lg:flex lg:space-y-0 lg:mx-4 ">
+            <div className="mt-12 space-y-8 lg:grid grid-row-1 grid-cols-3 lg:space-y-0 lg:mx-4 ">
                 <div className="bg-primary font-medium text-white flex flex-col items-center text-center px-4 py-8 mx-8 lg:mx-4 md:mx-16 relative space-y-8 rounded-3xl">
                     <p className="bg-secondary w-48 py-2 font-semibold text-black rounded-2xl absolute -top-4 -left-4 ">
                         Secured Scanning
@@ -542,9 +542,9 @@ const Why: React.FC = () => {
                         />
                     </svg>
                     <p>
-                        Publishing packages and web page editors now use Lorem
-                        Ipsum as their default model text and a search for lorem
-                        ipsumwill uncover
+                        {`Today's`} world demands defensive and safe methods for
+                        their data. We ensure that your documents are scanned in
+                        the most secure manner possible!
                     </p>
                 </div>
                 <div className="bg-primary font-medium text-white flex flex-col items-center text-center px-4 py-8 mx-8 lg:mx-4 md:mx-16 relative space-y-8 rounded-3xl">
@@ -573,9 +573,8 @@ const Why: React.FC = () => {
                     </svg>
 
                     <p>
-                        Publishing packages and web page editors now use Lorem
-                        Ipsum as their default model text and a search for lorem
-                        ipsumwill uncover
+                        At Dex Data, we leave no room for error. We strive for
+                        perfection and our work speaks for itself!
                     </p>
                 </div>
                 <div className="bg-primary font-medium text-white flex flex-col items-center text-center px-4 py-8 mx-8 lg:mx-4 md:mx-16 relative space-y-8 rounded-3xl">
@@ -604,15 +603,15 @@ const Why: React.FC = () => {
                     </svg>
 
                     <p>
-                        Publishing packages and web page editors now use Lorem
-                        Ipsum as their default model text and a search for lorem
-                        ipsumwill uncover
+                        Budget Friendly and Proficient are the two qualities we
+                        identify ourselves with. We persistently work to provide
+                        you with cost effective and optimal solutions for your
+                        data needs.
                     </p>
                 </div>
             </div>
 
             <Scanners />
-            
         </section>
     );
 };
