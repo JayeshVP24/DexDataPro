@@ -5,7 +5,7 @@ import { AppProps } from "next/app";
 import Head from "next/head";
 import { AnimatePresence } from "framer-motion";
 
-function MyApp({ Component, pageProps }: AppProps) {
+const  MyApp = ({ Component, pageProps }: AppProps) => {
     return (
         <>
             <Head>

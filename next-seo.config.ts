@@ -1,13 +1,13 @@
 import { NextSeoProps } from "next-seo";
 
 const config: NextSeoProps = {
-    title: "Title of your website/app",
-    description: "Description",
+    title: "Dex Data Processing",
+    description: "DEX Data Processing & Data Entry Services delivery includes timely and accurate data processing services as an assortment of data collection and entry as per client Reqirement",
     openGraph: {
         type: 'website',
         locale: 'en_IN',
-        url: 'Domain you bought',
-        site_name: "Name for your site, eg. company name or brand name"
+        url: 'https://dexdatapro.in/',
+        site_name: "Dex Data Processing"
     }
 }
 
