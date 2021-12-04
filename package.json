@@ -2,6 +2,8 @@
   "name": "dex-data-web",
   "version": "0.1.0",
   "private": true,
+  "author": "Jayesh Potlabattini <jayeshpotlabattini@gmail.com> (https://www.jayeshpotlabattini.com/) ",
+
   "scripts": {
     "dev": "next dev",
     "build": "next build",
